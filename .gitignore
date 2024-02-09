@@ -1,0 +1,39 @@
+# Ignore local environment variables
+.env
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore Ruby & Sinatra specific files
+*.rbc
+capybara-*.html
+.rspec
+/log
+/tmp
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/public/system
+/coverage/
+/spec/tmp
+**.orig
+rerun.txt
+pickle-email-*.html
+
+# Ignore Bundler config and installed gems
+/.bundle
+/vendor/bundle
+/vendor/ruby
+
+# Ignore all logfiles and tempfiles
+/log/*
+/tmp/*
+
+# Ignore other unnecessary files
+.idea/
+*.swp
+*~
+.project
+
+# Ignore specific database configuration files
+/config/database.yml
+
