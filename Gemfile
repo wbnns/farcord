@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'sinatra'
-gem 'discordrb'
+gem 'sqlite3'
 gem 'httparty'
+gem 'dotenv'
 
